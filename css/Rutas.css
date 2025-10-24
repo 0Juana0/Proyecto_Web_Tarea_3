@@ -1,0 +1,110 @@
+/* Css para la vista de rutas */
+body {
+    background-color: #fdf6e3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenido_dos {
+  background-color: #fdf6e3; /* fondo claro que combina con el amarillo temático */
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.contenido_dos p {
+  font-size: 18px;
+  color: #2c2c2c;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.contenido_uno {
+  padding: 40px 20px;
+  background-color: #fdf6e3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.contenido_uno h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #2c2c2c;
+}
+
+table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+thead th {
+  background-color: #f3bf30;
+  color: #000000;
+  font-weight: bold;
+}
+
+tbody th {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+tbody td {
+  background-color: #ffffff;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  appearance: none; 
+  cursor: pointer;
+}
+
+/* Css para la tabla de rutas */
+.ruta table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px; /* separación vertical entre filas */
+  font-family: Arial, sans-serif;
+  margin: 45px auto;
+}
+
+.ruta thead th {
+  background-color: #004080; /* azul oscuro similar al sitio */
+  color: white;
+  padding: 25px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+}
+
+.ruta tbody tr {
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* efecto de elevación */
+}
+
+.ruta td {
+  padding: 22px;
+  text-align: center;
+  border: none;
+}
