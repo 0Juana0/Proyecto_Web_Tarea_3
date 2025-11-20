@@ -20,11 +20,12 @@
         <header>  
             <nav>
             <ul id="menu_nav">
-                <li><img id="logo" src="img/Logo_CootransLaVega.png" alt="Logo Cootrans La Vega"></li>
+                
                 <li><a href="Index.php">Inicio</a></li>
+                <li><a href="reservas.php">Compras</a></li>
                 <li><a href="Rutas_Horarios.php">Rutas y horarios</a></li>
                 <li><a href="Contacto.php">Sobre nosotros</a></li>
-                <li><a href="reservas.php">Compras</a></li>
+                <li><img id="logo" src="img/Logo_CootransLaVega.png" alt="Logo Cootrans La Vega"></li>
             </ul>
             </nav>
         </header>
@@ -34,6 +35,7 @@
     function cargar_footer() {
         echo '
         <footer>
+            <a href="#Nav">🔝Subir al inicio</a>
             <p>© 2025 Cootrans La Vega. Todos los derechos reservados.</p>
             <p>Dirección: Calle 123 #45-67, Supía, Caldas</p>
             <p>Para más información, contáctanos a través de nuestro formulario.</p>
@@ -111,4 +113,5 @@
         mysqli_close($conexion);
         return $rutas;
     }
+
 ?>

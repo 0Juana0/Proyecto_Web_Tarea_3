@@ -75,11 +75,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="es">
 <head>
   <meta charset="utf-8" />
+  <meta name="descripcion" content="Pagina de compra y reservas diseñadas para extraer y almacenar informacion en la base de datos.">
   <title>Reserva de pasaje</title>
+  <!-- Enlace a archivos /CSS -->
   <?php cargar_links(); ?>
 </head>
 <body>
-  <?php cargar_navegador(); ?>
+  <div id="Nav"><?php cargar_navegador(); ?></div>
+
+  <div style="text-align: center;"><h1>Compra de tiquetes en línea para rutas de transporte en Caldas y destinos nacionales</h1> </div>
 
   <section class="form">
     <h2 class="titulo">Formulario de reserva!</h2>

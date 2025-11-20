@@ -2,7 +2,8 @@
 <html lang="es"> 
 
 <head>
-  <meta charset="UTF-8"> 
+  <meta charset="UTF-8">
+  <meta name="descripcion" content="Pagina inicial de bienvenida de la web con resumen de informativo."> 
   <title>Terminal de Transporte</title>
    <!-- Enlace a archivos /CSS -->
     <?php include 'funciones.php'; 
@@ -11,35 +12,36 @@
 </head>
 
 <body>
-    <?php cargar_navegador(); ?>
+    <div id="Nav"><?php cargar_navegador(); ?></div>
+
+    <div style="text-align: center;"><h1>Cootrans La Vega – Transporte seguro en Caldas con rutas y horarios actualizados</h1> </div>
 
   <section class="contenedor">
     <div class="imagen_text">
-      <img src="Img/Ilustracion5.jpg">
-      <div class="Texto">Bienvenido a Cootrans La Vega</div>
+      <img src="Img/Ilustracion5.jpg" alt="carretera de entrada al municipio de supia">
+      <div class="Texto">Cootrans La Vega</div>
     </div>
     <div class="imagen-simple">
-      <img src="Img/Ilustracion6.jpg">
-    <div class="Texto">¡Por y para el pueblo!</div> 
+      <img src="Img/Ilustracion6.jpg" alt="carretera de salida del municipio de supia">
+    <div class="Texto">Transporte seguro en Caldas</div> 
     </div>
   </section>
 
 
 <section class="contenido_uno">
-  <h1>En Cootrans La Vega encontrarás múltiples servicios</h1>
+  <h1>Servicios de transporte en Caldas: compra de tiquetes, rutas nacionales y horarios confiables</h1>
   <div class="contenedor-tarjetas">
-    <div class="tarjeta">Variedad de rutas de transporte que se adaptan a tus necesidades.</div>
-    <div class="tarjeta">Horarios actualizados minuto a minuto para evitar pérdidas de itinerario.</div>
-    <div class="tarjeta">Información de contacto para asistencia rápida a nivel nacional.</div>
+    <div class="tarjeta">Rutas de buses en Caldas y destinos nacionales: transporte Supía – Manizales, Supía – Medellín, y más.</div>
+    <div class="tarjeta">Horarios de buses en tiempo real: consulta itinerarios actualizados para tus viajes en Caldas.</div>
+    <div class="tarjeta">Contacto Cootrans La Vega: atención al cliente de transporte en Caldas y rutas nacionales.</div>
     <div class="tarjeta">Contenido adicional que enriquece y mejora tu experiencia.</div>
     <div class="tarjeta">Soporte de atención al cliente para resolver tus dudas.</div>
-    <div class="tarjeta">Noticias y actualizaciones sobre el transporte y estado de las vías nacionales.</div>
+    <div class="tarjeta">Noticias de transporte en Colombia: estado de las vías y actualizaciones de rutas en Caldas.</div>
   </div>
 
   <div class="parrafos-finales">
-    <p>En Cootrans La Vega contamos con muchos años de experiencia en el sector del transporte.</p>
-    <p>Nos esforzamos por ofrecer un servicio de calidad y satisfacer las necesidades de nuestros usuarios.</p>
-    <p>¡Explora nuestro sitio web y descubre todo lo que tenemos para ofrecerte!</p>
+    <p>Cootrans La Vega: experiencia en transporte de pasajeros en Caldas y rutas nacionales seguras.</p> 
+    <p>Explora Cootrans La Vega: compra tus tiquetes en línea y consulta rutas y horarios de transporte en Caldas</p>
   </div>
 </section>
 

@@ -2,7 +2,8 @@
 <html lang="es"> 
 
 <head>
-  <meta charset="UTF-8"> 
+  <meta charset="UTF-8">
+  <meta name="descripcion" content="Pagina con las rutas y horarios, accede a la base de datos para visualizar rutas."> 
   <title>Rutas y Horarios</title>
    <!-- Enlace a archivos /CSS -->
 <?php include 'funciones.php'; 
@@ -11,22 +12,25 @@
 </head>
 
 <body>
-    <?php cargar_navegador(); ?>
+    <div id="Nav"><?php cargar_navegador(); ?></div>
 
-    <div class="contenido_dos">
-        <p>En esta sección, podrás encontrar información detallada sobre las rutas y horarios de nuestros servicios de transporte.</p>
-        <p>Te invitamos a explorar y descubrir la mejor manera de viajar con nosotros.</p>
-    </div>
+    <div style="text-align: center;"><h1>Rutas y horarios de buses en Caldas – Supía, Manizales, Medellín y más destinos</h1> </div>
 
     <section class="contenedor">
         <div class="imagen_text">
-            <img src="Img/Ilustracion3.jpg">
-            <div class="Texto">Rutas y horarios de transporte Cootrans La Vega!</div>
+            <img src="Img/Ilustracion3.jpg" alt="Iglesia del parque principal de supia caldas">
+            <div class="Texto">Rutas y horarios de transporte en Caldas</div>
         </div>
         <div class="imagen-simple">
-            <img src="Img/Ilustracion4.jpg">
+            <img src="Img/Ilustracion4.jpg" alt="vista aerea del municipio de supia caldas">
+            <div class="Texto">Cootrans La Vega</div>            
         </div>
     </section>
+
+    <div class="contenido_dos">
+        <p>Consulta horarios de buses y rutas de transporte en Caldas con Cootrans La Vega.</p>
+        <p>Compra tiquetes en línea y viaja seguro.</p>
+    </div>
 
     <div class="contenido_uno"> 
       <h2>Horarios de atención al publico:</h2>
@@ -62,7 +66,7 @@
     </div>
   
     <div class="contenido_dos">
-        <p>RUTAS DISPONIBLES A LA FECHA</p>
+        <h2>Rutas disponibles a la fecha</h2>
     </div>
 
     <div class="ruta">
@@ -82,7 +86,9 @@
               <?php mostrar_rutas(); ?>
             </tbody>
         </table>
+        <div class="contenido_dos"><a href="reservas.php"> <h3>💳Ir a compra</h3></a></div>
     </div>
+    
 
     
     <?php cargar_footer(); ?>

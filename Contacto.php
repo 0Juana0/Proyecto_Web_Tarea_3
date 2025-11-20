@@ -2,7 +2,8 @@
 <html lang="es"> 
 
 <head>
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
+    <meta name="descripcion" content="Pagina de contacto con informacion de servicio y numeros de ayuda y soporte."> 
     <title>Sobre nosotros</title>
    <!-- Enlace a archivos /CSS -->
     <?php include 'funciones.php'; 
@@ -11,45 +12,47 @@
 </head>
 
 <body>
-    <?php cargar_navegador(); ?>
+    <div id="Nav"><?php cargar_navegador(); ?></div>
+
+    <div style="text-align: center;"><h1>Cootrans La Vega: experiencia en transporte de pasajeros en Caldas y rutas nacionales</h1> </div>
 
     <div class="contenido_dos">
-        <p>CONOCE UN POCO SOBRE NOSOTROS</p>
+        <h2>CONOCE UN POCO SOBRE NOSOTROS</h2>
     </div>
 
     <div class="caja1">
         <div class="mensaje1">
-            <h2>Misión</h2>
+            <h3>Misión</h3>
             <p>Ofrecer un servicio de transporte público de alta calidad e incluyente, salvaguardando la integridad de cada uno de los pasajeros con un servicio eficiente, soportado por un equipo humano competente y comprometido, con el objetivo de generar beneficios a nuestros usuarios, colaboradores y asociados de la Cooperativa.</p>
         </div>
             <div class="imagen_D">
-            <img src="Img/Ilustracion1.jpg" alt="Imagen representativa">
+            <img src="Img/Ilustracion1.jpg" alt="Imagen representativa de barrio del muncipio de supia caldas">
         </div>
     </div>
 <br>
     <div class="caja1">
         <div class="mensaje1">
-            <h2>Visión</h2>
+            <h3>Visión</h3>
             <p>Para 2028, la Cooperativa Multiactiva de Transportadores La Vega Ltda. será reconocida como un referente en la alta calidad en la prestación del servicio de transporte público, aportando al mejoramiento de la calidad de vida de nuestros usuarios y colaboradores, así como en la movilidad del municipio de Supía y sus alrededores, con una eficiencia operacional sostenible y responsable.</p>
         </div>
             <div class="imagen_D">
-            <img src="Img/Ilustracion2.jpg" alt="Imagen representativa">
+            <img src="Img/Ilustracion2.jpg" alt="vista aerea de un sector cercano al centro de supia caldas">
         </div>
     </div>
 
     <div class="contenido_dos">
-        <p>UBICANOS PARA OBTENER INFORMACIÓN MÁS EXACTA</p>
+        <h2>UBICANOS PARA OBTENER INFORMACIÓN MÁS EXACTA</h2>
     </div>
 
     <div class="contenido_uno">
         <div>
-            <h2>Dirección:</h2>
+            <h3>Dirección:</h3>
             <p>Calle 123 #45-67, Supía, Caldas</p>
             <p>En frente de la panadería "El Buen Pan"</p>
         </div>
 
         <div>
-            <h2>Socios Empresariales:</h2>
+            <h3>Socios Empresariales:</h3>
             <p>Agroindustria de caldas:</p>
             <p>Por compras mayores a $100.000 recibes un descuento del 10% en cualquier viaje.</p>
             <p>Motobombas del Supia:</p>
